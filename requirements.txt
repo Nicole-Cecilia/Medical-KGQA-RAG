@@ -1,0 +1,23 @@
+# 安装前建议 Python 3.9 ~ 3.11（3.12+ 部分包可能无预编译 wheel）
+# torch 请根据自己的 CUDA 版本从 https://pytorch.org/get-started/locally/ 选择安装命令
+torch>=2.0
+transformers>=4.37.0
+accelerate>=0.27
+tokenizers
+sentencepiece
+
+# Neo4j 驱动
+py2neo>=2021.2.3
+
+# 中文 AC 自动机实体识别
+# Windows 上如果 pip 安装报错，先装 Visual C++ Build Tools，或下载对应 whl:
+# https://pypi.org/project/pyahocorasick/#files
+pyahocorasick>=2.0.0
+
+# 终端 UI
+rich>=13.0
+
+# 配置文件
+python-dotenv>=1.0
+
+protobuf
